@@ -1,0 +1,120 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    background-color: blue; 
+}
+.container {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #666;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.profile-container {
+    margin-top: 50px;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.profile-photo img { 
+    width: 100%; 
+    height: auto; 
+}
+.profile-info, .contact-form label, .gallery { 
+    text-align: left; 
+    margin-top: 20px; 
+}
+.profile-info h2, .contact-form input, .contact-form textarea, .photo img { 
+    margin: 0; 
+}
+.profile-info p, .contact-form button { 
+    color: #666; 
+}
+.gallery { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+.items {
+    width: 190px;
+} 
+.photo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.image {
+    width: 190px;
+    height: 285px;
+}
+.contact-form label { 
+    display: block; 
+    margin-bottom: 5px; 
+}
+.contact-form input, .contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contact-form button:hover { 
+    background-color: #429188; 
+}
